@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background: rgb(32, 17, 36);
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a{
+  display: flex;
+  border-radius: 6rem 0;
+  padding: 20px;
+
+  width: 500px;
+
+  justify-content: center;
+  align-items: center;
+
+  background: rgb(0, 0, 0);
+  color: white;
+
+  margin: 15px 0;
+
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a:hover{
+  transition-duration: 0.45s;
+  background:rgb(255, 255, 255);
+  color: black;
+}

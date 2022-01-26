@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 200px;
+  height: 245px;
+
+  margin: 50px auto;
+
+  border-radius: 10px;
+  border: 1px solid white;
+}
